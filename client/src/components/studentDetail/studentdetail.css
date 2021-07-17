@@ -1,0 +1,94 @@
+.studentDetialWrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 12px -7px #000000; 
+    box-shadow: 0px 0px 12px -7px #000000;
+}
+
+.studentInnerWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.studentback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    background-color: #009879;
+    width: fit-content;
+    margin: 10px;
+    color: white;
+    border-radius: 14px;
+    font-size: 14px;
+}
+
+.studentback a{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.studentLeft{
+    flex: 1;
+}
+.studentRight{
+    flex: 1;
+}
+
+.studentLeft img{
+    width:40%;
+}
+
+.studentLeft{
+    display: flex;
+    flex-direction: column;
+    
+   
+    width: 350px;
+    align-items: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.studentRight{
+    display: flex;
+    
+}
+
+.parent{
+    border:1px solid lightsteelblue;
+    margin:8px;
+    padding: 5px;
+}
+
+.parentMessage{
+    background-color: transparent;
+    border-radius: 8px;
+    border: 4px solid #009879;
+    padding: 8px 14px;
+}
+
+.Btn{
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    background-color: #009879;
+    color: white;
+    border-radius: 18px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.parent img{
+    width: 100%;
+}
